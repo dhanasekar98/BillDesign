@@ -1,0 +1,198 @@
+
+h3{
+  margin:0 0 5px 0;
+}
+
+ 
+label{
+  position:absolute;
+  color:#999;
+  
+}
+input{
+  outline:none;
+  border:none;
+  height:25px;
+
+  border-bottom: 1px solid #000;
+  background:transparent;
+}
+.circlename{
+  width:240px;
+  margin-right: 10px;
+}
+
+.searchfilter{
+  
+  float: right;
+  padding:80px 150px 0 0 ;
+}
+
+.metersearch h3{
+  padding:75px 0 0 30px;
+  font-size:25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:500;
+}
+.displayflex{
+  display:flex;
+}
+.network{
+  display: flex;
+  height: 250px;
+  width: auto;
+  flex-wrap:wrap;
+  padding:10px 0;
+}
+.meter{
+  background:#A0d;
+  height:150px;
+
+}
+
+.input{
+  padding:2px;
+  margin: 0 80px 30px 0 ;
+  width:250px;
+  outline:none;
+  border:none;
+  border-bottom:1px solid #999;
+}
+.input:focus~.label2{
+  transform:translate(-20%,-80%);
+  font-size:10px;
+  transition: 1s;
+}
+
+
+.select-box{
+  display:flex;
+  width:400px;
+}
+ .options-container {
+  background: #2f3640;
+  color:#fff;
+  width: 100%;
+  transition: all 0.4s;
+  border-radius:8px;
+  overflow:hidden;
+}
+
+
+tr{
+  display: flex;
+  flex-direction: row;
+  height:60px;
+  
+}
+.label2{
+  position: absolute;
+  top:20px;
+  left:15px;
+}
+select:hover{
+  background:#0AF;
+  color:#fff;
+}
+.label1:hover{
+  background:#fff;
+  border:1px solid #0Af;
+  color:#000;
+  border-radius:8px;
+}
+select option{
+  background:#fff;
+  color:#000;
+  border-radius:8px;
+}
+header{
+  background-color: #0Af;
+  display: flex;
+  height:6vh;
+  align-items:center;
+}
+header h4{
+  margin:0 0 0 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  float: left;
+}
+.float{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  right:10px;
+  width: 150px;
+  height:39px;
+  border:none;
+  border-left:4px solid #000;
+  border-right: 4px solid #000;
+}
+.redspan{
+  position: relative;
+  margin:0 0px 0 8px;
+  border:1px solid #000;
+  padding:5px 0px ;
+  border-radius: 50%;
+  width:25px;
+  height:15.5px;
+  align-items: center;
+  cursor: pointer;
+}
+.red{
+  margin-left: 3px;
+  background:red;
+  padding:0.8px 9.5px;
+  border-radius:50% ;
+}
+.orange{
+  margin-left: 3px;
+  background:orange;
+  padding:0.8px 9.5px;
+  border-radius: 50%;
+}
+.blue{
+  margin-left: 3px;
+  background:#3fc1c0;
+  padding:0.8px 9.5px;
+  border-radius: 50%;
+}
+.violet{
+  margin-left: 3px;
+  background:violet;
+  padding:0.8px 9.5px;
+  border-radius: 50%;
+}
+
+.circlenname:focus~.label16{
+  transform:translate(-10%,-90%);
+  color:#0Af;
+}
+.divisionname:focus~.label9{
+  transform:translate(-10%,-90%);
+  color:#0AF;
+}
+.subdivisionname:focus~.label10{
+  transform:translate(-10%,-90%);
+  color:#0AF;
+}
+.sectionname:focus~.label11{
+  transform:translate(-10%,-90%);
+  color:#0AF;
+}
+.townname:focus~.label12{
+  transform:translate(-10%,-90%);
+  color:#0AF;
+}
+.ssname:focus~.label13{
+  transform:translate(-10%,-90%);
+  color:#0AF;
+}
+.feedername:focus~.label14{
+  transform:translate(-10%,-90%);
+  color:#0AF;
+}
+.dtname:focus~.label15{
+  transform:translate(-10%,-90%);
+  color:#0AF;
+}
